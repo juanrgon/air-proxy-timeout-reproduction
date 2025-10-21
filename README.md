@@ -24,7 +24,7 @@ The server has a 1-second delay before starting, which causes Air's proxy to tim
 
 ## Expected Behavior
 
-Air's proxy should wait for the application to be ready before timing out.
+On edit of the `server.go` file, Air's proxy should wait for the application to be ready before timing out.
 
 ## Actual Behavior
 
