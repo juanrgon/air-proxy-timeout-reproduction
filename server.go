@@ -10,7 +10,7 @@ import (
 const DELAY_BEFORE_START = 1
 
 func main() {
-	// Sleep for before starting the server
+	// Sleep before starting the server
 	fmt.Printf("Waiting %d second(s) before starting hello world server...", DELAY_BEFORE_START)
 	time.Sleep(DELAY_BEFORE_START * time.Second)
 	fmt.Println("")
