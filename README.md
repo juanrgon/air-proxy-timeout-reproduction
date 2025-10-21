@@ -29,10 +29,3 @@ Air's proxy should wait for the application to be ready before timing out.
 ## Actual Behavior
 
 The proxy times out because the application takes 1 second to start (due to the `time.Sleep(1 * time.Second)` in `server.go`).
-
-## Testing
-
-Try accessing the server through the proxy:
-```bash
-curl http://localhost:7777
-```
