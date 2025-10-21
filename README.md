@@ -20,7 +20,7 @@ The server has a 1-second delay before starting, which causes Air's proxy to tim
    air
    ```
 
-3. The proxy will be available on port 8888, and the application will run on port 7777.
+3. Visit http://localhost:8888
 
 ## Expected Behavior
 
